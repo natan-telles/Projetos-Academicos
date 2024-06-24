@@ -1,0 +1,91 @@
+html{
+    box-sizing:border-box;
+    height: 100%;
+}
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, red , orange);
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.documento{
+    background-color: #fff;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    border: 1px solid grey;
+    box-shadow: 0 4px 30px;
+    flex-basis: 400px;
+    height: 500px;
+    padding: 25px 35px;
+}
+
+.tela{
+    background-color: black;
+    border-radius: 5px; 
+    border: 1px solid grey;
+    font-size: 35px;
+    overflow: auto;
+    padding: 10px;
+    color: #fff;
+    text-align: start;
+    width: 326px;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button{
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px
+}
+
+.calc-button:last-child{
+    background-color: orangered;
+    color:#fff
+}
+
+.calc-button:last-child:hover{
+    background-color: orange;
+    color: inherit;
+}
+
+.calc-button:hover{
+    background-color: grey;
+}
+
+.calc-button:active{
+    background-color: #ffef78;
+}
+
+.calc-button:last-child:active{
+    background-color: #ffef10;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.triple{
+    flex-basis: 47%;
+}

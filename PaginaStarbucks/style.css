@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 2%;
+    align-items: center;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 60%;
+    padding: 20px;
+}
+
+.menu{
+    width: 40%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+section.sobre{
+    height:calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -60%;
+    right: -20%;
+    width: 800px;
+    height: 800px;
+    background-color: #00623d;
+    border-radius: 50%;
+}
+
+.fa-brands{
+    color: black;
+}
+
+.social-media{
+    position: absolute;
+    left: 56%;
+    top: 30%;
+}
+
+.social-media a{
+    display: block;
+    margin: 20px;
+    width: 40px;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 600px;
+}
+
+.texto-sobre button{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #00623d;
+    border: 0;
+}

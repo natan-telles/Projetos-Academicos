@@ -1,0 +1,113 @@
+/** Variables - colors **/
+:root {
+    /* Light */
+    --color-light-50: #f8fafc;
+
+    /* Dark */
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    /* Purple */
+    --color-purple-50: #7c3aed;
+    --color-purple-100: #a855f7;
+    --color-purple-200: #bf46ef;
+
+    /* Gradient */
+    /*--color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));*/
+    --color-gradient: linear-gradient(90deg,#6a28db, #3e0077, #100131);
+}
+
+.primary-body {
+    background: var(--color-gradient);
+    color: white;
+}
+
+.input {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 250px;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+/*-----------------------------------------------*/
+
+.dark {
+    color: black;
+}
+
+.background-dark {
+    background-color: rgb(49, 51, 71);
+    color: white;
+}
+
+.color-white {
+    color: white;
+}
+
+#link {
+    color: black;
+}
+
+.navbar-nav>li>a:hover {
+    color: rgb(126, 102, 134);
+}
+
+.form1 {
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form2 {
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form3 {
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
